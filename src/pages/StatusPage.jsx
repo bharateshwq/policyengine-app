@@ -12,6 +12,7 @@ import {
   COUNTRY_NAMES,
 } from "../data/countries";
 import { Helmet } from "react-helmet";
+import Header from "../layout/Header";
 
 function ApiStatus({ apiStatus, apiCategory, countryNames }) {
   return (
@@ -122,6 +123,7 @@ export function StatusPage() {
 
   return (
     <>
+      <Header />
       <div
         style={{
           paddingLeft: 50,
